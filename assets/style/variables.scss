@@ -1,0 +1,26 @@
+:root {
+  --color-white: #ffffff;
+  --color-grey: #292d32;
+  --color-black: #000000;
+  --color-purple: #702bfe;
+  --color-red: #e81a0c;
+  --color-green: #039c55;
+  --color-blue: #2c81fb;
+
+  --font-size-xs: 1rem;
+  --font-size-s: 1.125rem;
+  --font-size-m: 1.25rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 1.75rem;
+  --font-size-xxl: 2rem;
+}
+
+$font: 'Roboto', 'Calibri', sans-serif;
+
+$xs: 576px;
+$s: 768px;
+$m: 992px;
+$l: 1200px;
+$xl: 1440px;
+
+$max-width: $xl;

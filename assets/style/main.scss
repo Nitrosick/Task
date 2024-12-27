@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#__nuxt {
+  font-family: $font;
+  min-height: 100vh;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 { font-size: var(--font-size-xxl) }
+h2 { font-size: var(--font-size-xl) }
+h3 { font-size: var(--font-size-l) }
+h4 { font-size: var(--font-size-m) }
+h5 { font-size: var(--font-size-s) }
+h6 { font-size: var(--font-size-xs) }
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.5s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(10px);
+}
